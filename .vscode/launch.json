@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula02PooJava",
+            "request": "launch",
+            "mainClass": "pooguanabara.Aula02PooJava",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula03",
+            "request": "launch",
+            "mainClass": "pooguanabara.Aula03",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula04Main",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula04_GetttersAndSetters.Aula04Main",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula05",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula05.Aula05",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula06.Main",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula07.Main",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula09_desafio.Main",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula10_heranca.Main",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula11_heranca.Main",
+            "projectName": "Java-POO_af355afd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "pooguanabara_aula12_polimorfismo.Main",
+            "projectName": "Java-POO_af355afd"
+        }
+    ]
+}

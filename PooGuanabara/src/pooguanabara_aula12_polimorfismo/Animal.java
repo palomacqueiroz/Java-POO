@@ -6,6 +6,20 @@ public abstract class Animal {
 	protected int idade;
 	protected int membros;
 
+	//Métodos
+
+	public void abstract locomover(){
+		
+	}
+
+	public void abstract alimentar(){
+		
+	}
+
+	public void abstract emitirSom(){
+		
+	}
+
 
 	// G e Setters
 	public float getPeso() {
@@ -25,8 +39,6 @@ public abstract class Animal {
 	}
 	public void setMembros(int membros) {
 		this.membros = membros;
-	}
-
-		
+	}	
 
 }
