@@ -3,7 +3,6 @@ package pooguanabara_aula05;
 public class Aula05 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ContaBanco p1 = new ContaBanco();
 		p1.setNumConta(1111);
 		p1.setDono("Jubileu");

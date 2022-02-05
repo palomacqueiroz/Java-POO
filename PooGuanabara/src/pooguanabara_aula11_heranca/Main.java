@@ -3,7 +3,6 @@ package pooguanabara_aula11_heranca;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Visitante v1 = new Visitante ();
 		Aluno a1 = new Aluno();
 		Bolsista b1 = new Bolsista();

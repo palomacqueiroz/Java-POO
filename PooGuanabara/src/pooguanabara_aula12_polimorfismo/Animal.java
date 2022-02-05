@@ -7,7 +7,7 @@ public abstract class Animal {
 	protected int membros;
 
 
-	// G e S
+	// G e Setters
 	public float getPeso() {
 		return peso;
 	}
