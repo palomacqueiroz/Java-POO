@@ -1,13 +1,20 @@
 package pooguanabara_aula14_exfinal;
 
-public class Video {
-    protected String titulo;
-    protected int avaliacao;
-    protected int views;
-    protected int curtidas;
-    protected boolean reproduzindo;
+public class Video implements AcoesVideo{
+    private String titulo;
+    private int avaliacao;
+    private int views;
+    private int curtidas;
+    private boolean reproduzindo;
     
-
+    //Construtor.
+    public Video(String titulo) {
+        this.setTitulo(titulo);
+        this.setAvaliacao(1);
+        this.setViews(0);
+        this.setCurtidas(0);
+        this.setReproduzindo(false);
+    }
     //Getters and Setters.
     public String getTitulo() {
         return titulo;
@@ -38,6 +45,26 @@ public class Video {
     }
     public void setReproduzindo(boolean reproduzindo) {
         this.reproduzindo = reproduzindo;
+    }
+
+    //métodos abstratos
+    @Override
+    public void play() {
+       this.reproduzindo = true;         
+    }
+    @Override
+    public void pause() {
+       this.reproduzindo = false;         
+    }
+    @Override
+    public void like() {
+        this.curtidas ++;        
+    }
+    @Override
+    public String toString() {
+        return "Video [avaliacao=" + avaliacao + ", curtidas=" + curtidas 
+        + ", reproduzindo=" + reproduzindo
+        + ", titulo=" + titulo + ", views=" + views + "]";
     }
 
 
