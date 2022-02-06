@@ -8,17 +8,11 @@ public abstract class Animal {
 
 	//Métodos
 
-	public void abstract locomover(){
-		
-	}
+	public abstract void locomover();
 
-	public void abstract alimentar(){
-		
-	}
+	public abstract void alimentar();
 
-	public void abstract emitirSom(){
-		
-	}
+	public abstract void emitirSom();
 
 
 	// G e Setters
