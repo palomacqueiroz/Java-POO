@@ -15,7 +15,7 @@ public abstract class Pessoa {
     }
 
     //método.
-    public void ganharExperiencia(){
+    protected void ganharExperiencia(){
 
     }
 
