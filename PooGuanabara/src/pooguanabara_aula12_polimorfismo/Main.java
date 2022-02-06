@@ -7,20 +7,34 @@ public class Main {
 		Reptil r = new Reptil();
 		Peixe p = new Peixe();
 		Ave a = new Ave();
+		Canjuru ca = new Canjuru();
+		Cachorro ka = new Cachorro();
+		Cobra co = new Cobra();
+		Tartaruga ta = new Tartaruga();
+		Goldfish go = new Goldfish();
+		Arara ar = new Arara();
+		System.out.println("=====================");
+		System.out.println("Mamífero");
+		System.out.println("_____________________");
 		m.setPeso(85.3f);
+		m.setCorPelo("Marrom");
 		m.setIdade(2);
 		m.setMembros(4);
 		m.locomover();
 		m.alimentar();
 		m.emitirSom();
-
+		System.out.println("=====================");
+		System.out.println("Réptil");
+		System.out.println("_____________________");
 		r.setPeso(2.59f);
 		r.setIdade(6);
 		r.setMembros(4);
 		r.locomover();
 		r.alimentar();
 		r.emitirSom();
-
+		System.out.println("=====================");
+		System.out.println("Peixe");
+		System.out.println("_____________________");
 		p.setPeso(0.35f);
 		p.setIdade(1);
 		p.setMembros(0);
@@ -28,7 +42,9 @@ public class Main {
 		p.locomover();
 		p.alimentar();
 		p.emitirSom();
-
+		System.out.println("=====================");
+		System.out.println("Ave");
+		System.out.println("_____________________");
 		a.setPeso(0.89f);
 		a.setIdade(2);
 		a.setMembros(2);
@@ -36,7 +52,37 @@ public class Main {
 		a.locomover();
 		a.alimentar();
 		a.emitirSom();
-
+		System.out.println("=====================");
+		System.out.println("Canjuru");
+		System.out.println("_____________________");
+		ca.setCorPelo("Amarelo");
+		ca.setMembros(2);
+		ca.locomover();
+		System.out.println("=====================");
+		System.out.println("Cachorro");
+		System.out.println("_____________________");
+		ka.setCorPelo("caramelo");
+		ka.setMembros(4);
+		ka.emitirSom();
+		System.out.println("=====================");
+		System.out.println("Cobra");
+		System.out.println("_____________________");
+		co.setCorEscama("rosa");
+		co.alimentar();
+		co.locomover();
+		System.out.println("=====================");
+		System.out.println("Tartaruga");
+		System.out.println("_____________________");
+		ta.locomover();
+		ta.emitirSom();
+		System.out.println("=====================");
+		System.out.println("Goldfish");
+		System.out.println("_____________________");
+		go.locomover();
+		System.out.println("=====================");
+		System.out.println("Arara");
+		System.out.println("_____________________");
+		ar.locomover();
 	}
 
 }

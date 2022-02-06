@@ -1,7 +1,7 @@
 package pooguanabara_aula12_polimorfismo;
 
 public class Reptil extends Animal{
-    protected String corEscama;
+    private String corEscama;
 
     //Sobrescrever.
     @Override
@@ -10,11 +10,11 @@ public class Reptil extends Animal{
     }
     @Override
     public void alimentar(){
-        System.out.println("Comendo folhas");
+        System.out.println("Comendo vegetais");
     }
     @Override
     public void emitirSom(){
-        System.out.println("Som de mamífero");
+        System.out.println("Som de réptil");
     }
 
     // Getters and Setters.

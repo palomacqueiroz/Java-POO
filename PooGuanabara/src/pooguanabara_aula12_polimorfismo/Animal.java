@@ -15,7 +15,7 @@ public abstract class Animal {
 	public abstract void emitirSom();
 
 
-	// G e Setters
+	// Getters e Setters
 	public float getPeso() {
 		return peso;
 	}

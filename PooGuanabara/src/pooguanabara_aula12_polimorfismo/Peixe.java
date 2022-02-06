@@ -1,13 +1,9 @@
 package pooguanabara_aula12_polimorfismo;
 
 public class Peixe extends Animal{
-    protected String corEscama;
+    private String corEscama;
 
-    //Metodo.
-    public void soltaBolha(){
-
-    }
-
+    
     //Sobrescrever.
     @Override
     public void locomover(){
@@ -15,11 +11,16 @@ public class Peixe extends Animal{
     }
     @Override
     public void alimentar(){
-        System.out.println("Mamando");
+        System.out.println("Comendo Substâncias");
     }
     @Override
     public void emitirSom(){
         System.out.println("Não emite som");
+    }
+
+    //Metodo.
+    public void soltaBolha(){
+        System.out.println("Soltando Bolha");
     }
 
     // Getters and Setters.

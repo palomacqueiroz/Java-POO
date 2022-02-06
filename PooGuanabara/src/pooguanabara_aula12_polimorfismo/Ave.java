@@ -1,12 +1,7 @@
 package pooguanabara_aula12_polimorfismo;
 
 public class Ave extends Animal{
-    protected String corPena;
-
-    //Metodo.
-    public void fazerNinho(){
-        
-    }
+    private String corPena;
 
     //Sobrescrever.
     @Override
@@ -15,11 +10,16 @@ public class Ave extends Animal{
     }
     @Override
     public void alimentar(){
-        System.out.println("Mamando");
+        System.out.println("Comendo Frutas");
     }
     @Override
     public void emitirSom(){
-        System.out.println("Som de mamífero");
+        System.out.println("Som de Ave");
+    }
+
+    //Metodo.
+    public void fazerNinho(){
+        System.out.println("Faz ninho.");
     }
 
     // Getters and Setters.
